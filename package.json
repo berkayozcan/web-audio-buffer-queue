@@ -1,15 +1,11 @@
 {
   "name": "web-audio-buffer-queue",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Web Audio API source node that streams (Audio)Buffers from a queue or Node-style Stream",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/johni0702/web-audio-buffer-queue.git"
-  },
-  "bugs": {
-    "url": "https://github.com/johni0702/web-audio-buffer-queue/issues",
-    "email": "me@johni0702.de"
+    "url": "git://github.com/berkayozcan/web-audio-buffer-queue.git"
   },
   "scripts": {
     "compile": "node_modules/.bin/babel -d lib/ src/",
@@ -27,8 +23,6 @@
     "source",
     "buffer"
   ],
-  "author": "Jonas Herzig <me@johni0702.de>",
-  "license": "ISC",
   "files": [
     "index.js",
     "lib"
@@ -44,6 +38,6 @@
   },
   "dependencies": {
     "audio-context": "^1.0.3",
-    "extend": "^3.0.0"
+    "extend": "^3.0.2"
   }
 }
